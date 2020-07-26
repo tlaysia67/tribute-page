@@ -1,0 +1,48 @@
+@font-face{
+    font-family: caveat-bold;
+    src: url(fonts/Caveat-Bold.ttf)
+}
+
+* {
+    font-family: caveat-bold;
+}
+#img-caption {
+    margin-bottom: 40px;
+}
+#tribute-info {
+    line-height: 100%;
+}
+
+h1 {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+img {
+    margin: 0 auto;
+    display: block;
+    max-width: 300px;
+}
+
+body {
+    background-image:  url(images/Dr-Seuss-Backgrounds.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+/*    font-family: cursive;*/
+    font-size: 20px;
+}
+
+div {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    height: 200px;
+}
